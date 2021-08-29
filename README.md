@@ -35,23 +35,23 @@ In you terminal within the root directory of the application (the one with main.
 pip install -r ./requirements.txt</p>
 <br>
 OR
-<br>
+<br><br>
 just
 pip install pytube
 
 ---------------------------------------------
  ### NOTE: MAC USERS
 ---------------------------------------------
-<p>If you are using mac and getting an error such as <p>
+<p>If you are using mac and getting an error such as below visit https://stackoverflow.com/questions/50236117/scraping-ssl-certificate-verify-failed-error-for-http-en-wikipedia-org to solve the problem. If
+the issue below did not occur in your machine, just ignore this part. </p>
 
 <pre>
 File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py", line 1319, in do_open
     raise URLError(err)
-urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1049)>
-<pre>
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1049)
+</pre>
 
-<p> Visit [here](https://stackoverflow.com/questions/50236117/scraping-ssl-certificate-verify-failed-error-for-http-en-wikipedia-org) to solve the problem. If
-the above issue did not occur in your machine, just ignore this part. <p>
+
 
 
 
