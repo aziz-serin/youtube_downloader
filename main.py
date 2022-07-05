@@ -60,7 +60,7 @@ def display_search():
 
 def download_media(media):
     media.register_on_progress_callback(show_progress_bar)
-    stream = media.streams.get_audio_only(subtype='mp4')
+    stream = media.streams.get_audio_only()
     if stream != None:
         try:
             stream.download("./Downloads")
